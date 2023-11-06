@@ -61,9 +61,22 @@ body {
 .try-again {
     color: rgb(11, 79, 121);
     background-color: rgb(125, 172, 201);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.try-again:hover,
+.try-again:focus {
+    background-color: rgb(76, 169, 222);
+
 }
 
 .next-level {
     color: rgb(148, 191, 217);
     background-color: rgb(11, 55, 121);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.next-level:hover,
+.next-level:focus {
+    background-color: rgb(3, 27, 65);
 }
