@@ -1,83 +1,86 @@
 const cardArray = [
+
     {
         name: 'rin_1',
-        img: 'images/image_11.png',
+        img: 'images/image_11.png'
     },
 
     {
         name: 'rin_2',
-        img: 'images/image_22.png',
+        img: 'images/image_22.png'
     },
 
     {
         name: 'rin_3',
-        img: 'images/image_33.png',
+        img: 'images/image_33.png'
     },
 
     {
         name: 'rin_4',
-        img: 'images/image_44.png',
+        img: 'images/image_44.png'
     },
 
     {
         name: 'rin_5',
-        img: 'images/image_55.png',
+        img: 'images/image_55.png'
     },
 
     {
         name: 'rin_6',
-        img: 'images/image_66.png',
+        img: 'images/image_66.png'
     },
 
     {
         name: 'rin_7',
-        img: 'images/image_77.png',
+        img: 'images/image_77.png'
     },
 
     {
         name: 'rin_8',
-        img: 'images/image_88.png',
+        img: 'images/image_88.png'
     },
 
     {
         name: 'rin_1',
-        img: 'images/image_11.png',
+        img: 'images/image_11.png'
     },
 
     {
         name: 'rin_2',
-        img: 'images/image_22.png',
+        img: 'images/image_22.png'
     },
 
     {
         name: 'rin_3',
-        img: 'images/image_33.png',
+        img: 'images/image_33.png'
     },
 
     {
         name: 'rin_4',
-        img: 'images/image_44.png',
+        img: 'images/image_44.png'
     },
 
     {
         name: 'rin_5',
-        img: 'images/image_55.png',
+        img: 'images/image_55.png'
     },
 
     {
         name: 'rin_6',
-        img: 'images/image_66.png',
+        img: 'images/image_66.png'
     },
 
     {
         name: 'rin_7',
-        img: 'images/image_77.png',
+        img: 'images/image_77.png'
     },
 
     {
         name: 'rin_8',
-        img: 'images/image_88.png',
+        img: 'images/image_88.png'
     }
+
+    
 ]
 
 cardArray.sort(() => 0.5 - Math.random())
