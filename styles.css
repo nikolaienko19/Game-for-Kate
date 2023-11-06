@@ -29,7 +29,7 @@ body {
 }
 
 #grid-two {
-    width: 1040px;
+    width: 790px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
