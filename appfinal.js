@@ -103,7 +103,7 @@ const cardArray = [
 
 cardArray.sort(() => 0.5 - Math.random())
 
-const gridDisplay = document.querySelector('#grid')
+const gridDisplay = document.querySelector('#grid-two')
 const resultDisplay = document.querySelector('#result')
 let buttonsWon = document.getElementById('buttons')
 let scoreText = document.querySelector('#score')
@@ -125,7 +125,7 @@ function createBoard() {
 createBoard()
 
 function chechMatch() {
-    const cards = document.querySelectorAll('#grid img')
+    const cards = document.querySelectorAll('#grid-two img')
     const optionOneId = cardsChosenIds[0]
     const optionTwoId = cardsChosenIds[1]
     console.log(cards)

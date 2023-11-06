@@ -20,7 +20,16 @@ body {
 }
 
 #grid {
-    width: 1230px;
+    width: 830px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 10px;
+    margin-bottom: 50px;
+}
+
+#grid-two {
+    width: 1040px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

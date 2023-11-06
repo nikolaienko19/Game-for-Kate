@@ -93,7 +93,7 @@ const cardsWon = []
 function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
         const card = document.createElement('img')
-        card.setAttribute('src', 'images/color_bg.png')
+        card.setAttribute('src', 'images/sparkles_bg_0.png')
         card.setAttribute('data-id', i)
         card.addEventListener('click', flipCard)
         gridDisplay.appendChild(card)
@@ -110,8 +110,8 @@ function chechMatch() {
     console.log(cards)
     console.log('check for match!')
     if (optionOneId == optionTwoId) {
-        cards[optionOneId].setAttribute('src', 'images/color_bg.png')
-        cards[optionTwoId].setAttribute('src', 'images/color_bg.png')
+        cards[optionOneId].setAttribute('src', 'images/sparkles_bg_0.png')
+        cards[optionTwoId].setAttribute('src', 'images/sparkles_bg_0.png')
     }
     if (cardsChosen[0] == cardsChosen[1]) {
         alert('Ти знайшла потрібного Ріна!')
@@ -121,8 +121,8 @@ function chechMatch() {
         cards[optionTwoId].removeEventListener('click', flipCard)
         cardsWon.push(cardsChosen)
     } else {
-        cards[optionOneId].setAttribute('src', 'images/color_bg.png')
-        cards[optionTwoId].setAttribute('src', 'images/color_bg.png')
+        cards[optionOneId].setAttribute('src', 'images/sparkles_bg_0.png')
+        cards[optionTwoId].setAttribute('src', 'images/sparkles_bg_0.png')
         alert('Упс, не той Рін!')
 
     }
